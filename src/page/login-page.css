@@ -1,0 +1,93 @@
+.login-card{
+    border: 1px white solid;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: rgb(229, 230, 231);
+    min-width: 400px;
+    box-shadow: 4px 3px 12px 1px rgba(155, 154, 154, 0.575);
+}
+.input-button-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: black;
+    font-size: 25px;
+    margin-bottom: -10px;
+    padding-bottom: 0px;
+}
+h1{
+    color: black;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+h1:hover{
+    font-size: 31px;
+}
+
+button{
+    min-width: 110px;
+    margin-top: 20px;
+    background-color: #cecbcb;
+    padding: 6px 12px 6px 12px;
+    border: 1px rgb(129, 129, 129) solid;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 4px 3px 8px 1px rgba(128, 128, 128, 0.486);
+}
+button:hover{
+    border: 1px rgb(48, 48, 48) solid;
+    box-shadow: 1px 1px 4px 1px rgba(128, 128, 128, 0.541);
+    min-width: 120px;
+}
+input{
+    padding: 10px 15px 10px 15px;
+    border-radius: 12px;
+    min-width: 250px;
+    background-color: #faf4ec;
+    border: 1px gray solid;
+    color: black;
+    font-size: 18px;
+    box-shadow: 4px 3px 8px 1px rgba(128, 128, 128, 0.486);
+}
+input::placeholder{
+    font-size: 12px;
+}
+
+input:active{
+    border: 2px rgb(180, 180, 180) solid;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 1px 1px 4px 1px rgba(128, 128, 128, 0.541);
+}
+input:focus{
+    min-width: 280px;
+    padding: 12px 15px 9px 15px;
+    text-align: center;
+}
+input:focus::placeholder{
+    color:#faf4ec;
+    text-align: center;
+}
+
+.error{
+    color: black;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    margin: 10px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

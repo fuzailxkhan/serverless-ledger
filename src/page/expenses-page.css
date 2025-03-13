@@ -1,0 +1,157 @@
+.expense-container {
+    min-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+
+  h2{
+    margin:0;
+  }
+
+  .expense-form-subdiv-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .expense-form-subdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  select{
+    max-height:40px;
+    min-width: 273px;
+  }
+  .expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .expense-form input, 
+  .expense-form select, 
+  .expense-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .expense-form input{
+    max-width: 200px;
+  }
+  .expense-form select{
+    max-width: 200px;
+    border: 1px rgb(129, 129, 129) solid;
+    border-radius: 8px;
+    color: black;
+    background-color: #cecbcb;
+  }
+  
+  .expense-form button {
+    max-width: 110px;
+    margin:auto;
+    margin-top: 20px;
+    background-color: #cecbcb;
+    padding: 6px 12px 6px 12px;
+    border: 1px rgb(129, 129, 129) solid;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 4px 3px 8px 1px rgba(128, 128, 128, 0.486);
+  }
+  
+  .expense-form button:hover {
+    background: #b8b6b6;
+  }
+  
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+  }
+  
+  .expense-table th, .expense-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .expense-table th {
+    background: #cecbcb;
+    border: 1px rgb(129, 129, 129) solid;
+    color: black;
+  }
+  
+  .expense-table tbody tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
+  .no-expenses {
+    color: #777;
+    font-style: italic;
+  }
+
+  /* Style the table to make it smaller and compact */
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem; /* Smaller font size */
+  margin-top: 20px;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 5px 7px; /* Smaller padding */
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.expense-table th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+  font-size: 0.85rem; /* Even smaller header font */
+}
+
+.expense-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.expense-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Shrink input and button sizes */
+.expense-form input, 
+.expense-form select, 
+.expense-form button {
+  padding: 6px 10px; 
+  font-size: 0.9rem;
+}
+
+/* Add some spacing around the container */
+.expense-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #fff;
+}
+
+  
